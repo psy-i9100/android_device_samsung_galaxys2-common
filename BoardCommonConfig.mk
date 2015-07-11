@@ -165,6 +165,7 @@ BOARD_SEPOLICY_UNION += \
     init.te \
     mediaserver.te \
     rild.te \
+    service_contexts \
     system_app.te \
     system_server.te \
     ueventd.te \
