@@ -163,6 +163,7 @@ BOARD_SEPOLICY_UNION += \
     file.te \
     file_contexts \
     init.te \
+    kernel.te \
     mediaserver.te \
     rild.te \
     service_contexts \
