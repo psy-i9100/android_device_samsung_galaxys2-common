@@ -69,16 +69,16 @@ def WriteFullOTAPackage(input_zip, output_zip):
 
   script.Print("                                   ");
   script.Print("                                   ");
-  script.Print("******************************************************");
-  script.Print(" _________  ________   ______   _____          _     ");  
-  script.Print("|  _   _  ||_   __  |.' ____ \ |_   _|        / \    ");  
-  script.Print("|_/ | | \_|  | |_ \_|| (___ \_|  | |         / _ \    "); 
-  script.Print("    | |      |  _| _  _.____`.   | |   _    / ___ \    ");
-  script.Print("   _| |_    _| |__/ || \____) | _| |__/ | _/ /   \ \_  ");
-  script.Print("  |_____|  |________| \______.'|________||____| |____| ");
-  script.Print("                                                      "); 
-  script.Print("              A Ground Zero Roms Project           ");
-  script.Print("******************************************************"); 
+  script.Print("************************************************");
+  script.Print(" _________  ________   ______   _____          _");  
+  script.Print("|  _   _  ||_   __  |.' ____ \ |_   _|        / \ ");  
+  script.Print("|_/ | | \_|  | |_ \_|| (___ \_|  | |         / _ \ "); 
+  script.Print("    | |      |  _| _  _.____`.   | |   _    / ___ \ ");
+  script.Print("   _| |_    _| |__/ || \____) | _| |__/ | _/ /   \ \_");
+  script.Print("  |_____|  |________| \______.'|________||____| |____|");
+  script.Print("                                                "); 
+  script.Print("              A Ground Zero Roms Project        ");
+  script.Print("************************************************"); 
   script.Print("                                   ");
   script.Print("                                   ");
   script.Print("                                   ");
