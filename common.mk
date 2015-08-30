@@ -57,8 +57,7 @@ PRODUCT_COPY_FILES += \
 # Packages
 PRODUCT_PACKAGES := \
     com.android.future.usb.accessory \
-    SamsungServiceMode \
-    Torch
+    SamsungServiceMode
 
 # Audio Packages
 PRODUCT_PACKAGES += \
@@ -136,14 +135,14 @@ PRODUCT_PACKAGES += \
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    VisualizationWallpapers \
+#    Galaxy4 \
+#    HoloSpiralWallpaper \
+#    LiveWallpapers \
+#    LiveWallpapersPicker \
+#    MagicSmokeWallpapers \
+#    NoiseField \
+#    PhaseBeam \
+#    VisualizationWallpapers \
     librs_jni
 
 # Wifi
