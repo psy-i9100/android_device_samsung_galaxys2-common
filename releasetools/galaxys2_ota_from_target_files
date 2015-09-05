@@ -52,6 +52,7 @@ def CopyBootFiles(input_zip, output_zip):
     output_zip.write(os.path.join(LOCAL_DIR, "../i9100/prebuilt/system/media/audio/notifications/!Nokia_Message.ogg"),"system/media/audio/notifications/!Nokia_Message.ogg")
     output_zip.write(os.path.join(LOCAL_DIR, "../i9100/prebuilt/system/media/audio/notifications/!Spica.ogg"),"system/media/audio/notifications/!Spica.ogg")
     output_zip.write(os.path.join(LOCAL_DIR, "../i9100/prebuilt/system/media/audio/ringtones/Themos.ogg"),"system/media/audio/ringtones/Themos.ogg")
+    output_zip.write(os.path.join(LOCAL_DIR, "../i9100/prebuilt/system/media/bootanimation.zip"),"system/media/bootanimation.zip")
 
 def WriteFullOTAPackage(input_zip, output_zip):
   # TODO: how to determine this?  We don't know what version it will
