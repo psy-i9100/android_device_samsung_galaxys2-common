@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+#BOARD_SEPOLICY_UNION
 
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
@@ -151,27 +151,7 @@ BOARD_VOLD_DISC_HAS_MULTIPLE_MAJORS := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/s3c-usbgadget/gadget/lun%d/file"
 
 # Selinux
-BOARD_SEPOLICY_DIRS += \
-    device/samsung/galaxys2-common/selinux
-
-BOARD_SEPOLICY_UNION += \
-    bluetooth.te \
-    device.te \
-    domain.te \
-    drmserver.te \
-    dumpstate.te \
-    file.te \
-    file_contexts \
-    healthd.te \
-    init.te \
-    kernel.te \
-    mediaserver.te \
-    rild.te \
-    service_contexts \
-    system_app.te \
-    system_server.te \
-    ueventd.te \
-    vold.te
+BOARD_SEPOLICY_DIRS += device/samsung/galaxys2-common/selinux
 
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/galaxys2-common/recovery/recovery_keys.c
